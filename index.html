@@ -3,30 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic Website</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Contact Records</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <h1>My Basic Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus odio quis tortor tincidunt, vitae viverra libero vestibulum.</p>
-        </section>
-    </main>
+    <h1>Contact Records</h1>
+    <table id="contactTable">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+        <tbody id="contactData">
+            <!-- Contacts will be dynamically added here -->
+        </tbody>
+    </table>
 
-    <footer>
-        <p>&copy; 2024 My Basic Website</p>
-    </footer>
+    <script src="index.js"></script>
 </body>
 </html>
